@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box
+}
+
+@font-face{
+    font-family: 'GraviolaSoft';
+    src:  url('../assets/fonts/WOFF/GraviolaSoft-Regular.woff');
+}
+
+body, html{
+    height: 100%;
+    background-color: #222326;
+}
+
+.container-menu-mandarin{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5vh;
+    align-items: center;
+}
+
+.menu-mandarin-icon{
+    width: 9vw;
+    height: 7vh;
+    background-color: grey;
+    margin-left: 12vw;
+}
+
+.menu-options{
+    display: flex;
+    flex-direction: row;
+    width: 32vw;
+    justify-content: space-between;
+    margin-right: 12vw;
+}
+
+.menu-options p{
+    font-family: 'GraviolaSoft';
+    font-family: 1em;
+    color: #ffffff;
+}
+
+.menu-options a{
+    text-decoration: none;
+}
+
+.menu-options a:hover{
+    color: red;
+}
