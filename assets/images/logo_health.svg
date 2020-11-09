@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="218.215" height="77.113" viewBox="0 0 218.215 77.113">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #0fb;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_3360" data-name="Retângulo 3360" class="cls-1" width="218.215" height="77.113" transform="translate(0 0)"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_10254" data-name="Grupo 10254" transform="translate(-712.107 -421.768)">
+    <g id="Grupo_10253" data-name="Grupo 10253" class="cls-2" transform="translate(712.107 421.768)">
+      <path id="Caminho_27721" data-name="Caminho 27721" class="cls-3" d="M1217.213,498.457h6.574l-7.351-14.759a10.645,10.645,0,0,0-1.164-19.769,13.847,13.847,0,0,0-3.924-.53c-1.33,0-6.129-.008-6.129-.008v-.008h-6.085v35.075h6.085V484.682l5.265.007Zm-11.994-29.95h5.791a5.534,5.534,0,0,1,0,11.069l-5.794-.009Z" transform="translate(-1045.507 -450.255)"/>
+      <path id="Caminho_27722" data-name="Caminho 27722" class="cls-3" d="M742.041,463.378v35.076h-5.772V474.343l-9.217,17-9.307-17v24.111h-5.638V463.378h5.1l9.888,17.984,9.888-17.984Z" transform="translate(-712.107 -450.252)"/>
+      <rect id="Retângulo_3359" data-name="Retângulo 3359" class="cls-3" width="6.085" height="35.076" transform="translate(182.191 13.125)"/>
+      <path id="Caminho_27723" data-name="Caminho 27723" class="cls-3" d="M926.944,498.457V474.322l13.122,24.134h5.447V463.382h-5.638V487.47l-13.121-24.088h-5.493v35.075Z" transform="translate(-855.286 -450.255)"/>
+      <path id="Caminho_27724" data-name="Caminho 27724" class="cls-3" d="M840.4,498.454h6.589l-11.723-35.076h-5.906l-11.678,35.076h6.366l2.612-8.933h11.128ZM828.173,484.33l4.045-13.836v0l4.046,13.838Z" transform="translate(-784.376 -450.253)"/>
+      <path id="Caminho_27725" data-name="Caminho 27725" class="cls-3" d="M1332.695,498.457V474.322l13.122,24.134h5.447V463.382h-5.638V487.47L1332.5,463.382h-5.493v35.075Z" transform="translate(-1133.048 -450.255)"/>
+      <path id="Caminho_27726" data-name="Caminho 27726" class="cls-4" d="M1044.742,422.177c0-.134,0-.268-.009-.4-.133-.005-.266-.009-.4-.009a9.863,9.863,0,0,0-9.863,9.863c0,.134,0,.267.009.4.133.005.266.009.4.009a9.863,9.863,0,0,0,9.863-9.863" transform="translate(-932.785 -421.768)"/>
+      <path id="Caminho_27727" data-name="Caminho 27727" class="cls-3" d="M1023.775,463.379h-7.6v35.076h7.6a17.55,17.55,0,1,0,0-35.076m-.133,29.438h-1.7v-23.8h1.7a11.917,11.917,0,1,1,0,23.8" transform="translate(-920.26 -450.253)"/>
+      <path id="Caminho_27728" data-name="Caminho 27728" class="cls-3" d="M1118.481,498.454h6.59l-11.723-35.076h-5.906l-11.678,35.076h6.366l2.612-8.933h11.128Zm-12.222-14.124,4.046-13.836v0l4.046,13.838Z" transform="translate(-974.744 -450.253)"/>
+      <path id="Caminho_27729" data-name="Caminho 27729" class="cls-4" d="M924.884,616.433h3.023v15.708h-3.023v-6.551h-5.663v6.551h-3.045V616.433h3.045v6.419h5.663Z" transform="translate(-851.805 -555.028)"/>
+      <path id="Caminho_27730" data-name="Caminho 27730" class="cls-4" d="M971.971,632.141V616.433H982.4l.164,2.695h-7.547v3.746h6.693v2.695h-6.693v3.878H982.8l-.427,2.695Z" transform="translate(-890 -555.028)"/>
+      <path id="Caminho_27731" data-name="Caminho 27731" class="cls-4" d="M1028.1,632.141l-1.15-3.3h-6.058l-1.139,3.3h-3.122l5.86-15.708h2.958l5.882,15.708Zm-6.332-5.9h4.305L1023.925,620Z" transform="translate(-920.572 -555.028)"/>
+      <path id="Caminho_27732" data-name="Caminho 27732" class="cls-4" d="M1076.35,632.141V616.433h3.045V629.4h7.339l-.427,2.739Z" transform="translate(-961.454 -555.028)"/>
+      <path id="Caminho_27733" data-name="Caminho 27733" class="cls-4" d="M1123.8,616.433v2.739h-4.283v12.97h-3.056v-12.97h-4.283v-2.739Z" transform="translate(-985.98 -555.028)"/>
+      <path id="Caminho_27734" data-name="Caminho 27734" class="cls-4" d="M1171.865,616.433h3.024v15.708h-3.024v-6.551H1166.2v6.551h-3.045V616.433h3.045v6.419h5.663Z" transform="translate(-1020.879 -555.028)"/>
+    </g>
+  </g>
+</svg>

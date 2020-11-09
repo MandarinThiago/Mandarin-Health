@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box
+}
+
+@font-face {
+	font-family: "graviola-light";
+	src: url(../assets/fonts/WOFF/GraviolaSoft-Light.woff);
+}
+@font-face {
+	font-family: "graviola-bold";
+	src: url(../assets/fonts/WOFF/GraviolaSoft-Bold.woff);
+}
+@font-face {
+	font-family: "graviola-regular";
+  src: url(../assets/fonts/WOFF/GraviolaSoft-Regular.woff);
+}
+@font-face {
+	font-family: "graviola-book";
+  src: url(../assets/fonts/WOFF/GraviolaSoft-Book.woff);
+}
+
+body, html{
+    height: 100%;
+    background-color: #ffffff;
+}
+
+header{
+    position: absolute;
+    margin-top: -110vh;
+    width: 100vw;
+}
+
+.bg-image{
+    position: relative;
+    width: 100%;
+    height: 948px;
+    background: rgb(37, 209, 160);
+    background: linear-gradient(76deg, rgba(37, 209, 160, 1) 12%, rgba(95, 39, 205, 1)83%);
+    background-size: cover;
+    clip-path: polygon(0% 0%, 100% 0, 100% 82%, 68% 94%, 0 82%);
+}
+
+.bg-image img{
+    width: 100%;
+    background-position: center center;
+    filter: blur(1px);
+}   
+
+/*------------- menu -------------*/
+
+.container-menu-mandarin{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-mandarin-icon{
+    width: 9vw;
+    height: 7vh;
+    margin-left: 12vw;
+}
+
+.menu-mandarin-icon img{
+    width: 100%;
+    min-width: 100px;
+}
+
+.menu-options{
+    display: flex;
+    flex-direction: row;
+    width: 32vw;
+    justify-content: space-between;
+    margin-right: 12vw;
+}
+
+.menu-options p{
+    font-family: 'graviola-regular';
+    font-size: 1em;
+    color: #ffffff;
+}
+
+.menu-options a{
+    text-decoration: none;
+}
+
+.menu-options a:hover{
+    color: red;
+}
+
+/*------------- video area -------------*/
+
+.container-video-conteudo{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -96vh;
+}
+
+.video-player{
+    width: 43%;
+}
+
+
+.video-player img{
+    width: 100%
+}
+
+.text-video{
+    width: 43%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'graviola-light';
+    font-size: 1.5em;
+    color: #ffffff;
+    margin-top: 2%;
+    padding: 5px;
+}
+
+.paragraph-left{
+    width: 48%;
+}
+
+.paragraph-right{
+    width: 48%;
+}
+
+.txt-video-bold{
+    font-family: 'graviola-regular';
+    font-size: 1em;
+    color: #ffffff;
+}
+
+/*------------- health cycle -------------*/
+
+.container-health-cicle{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.container-health-cicle p{
+    font-family: 'graviola-light';
+    font-size: 0.8em;
+    color: #4B4B4B;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    width: 34%;
+}
+
+.container-circles{
+    width: 68vw;
+}
+
+.cycles-img{
+    width: 100%;
+}
+
+.container-icons-circles{
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: -220px;
+}
+
+.icons-circles{
+    width: 8vw;
+}
+
+#pdv{
+    width: 5.8vw;
+}
+
+/*------------- health cycle -------------*/
+
+.container-servicos{
+    width: 100%;
+    height: 95vh;
+    background: transparent linear-gradient(180deg, #F5F5F5 0%, #F8F8F8 100%) 0% 0% no-repeat padding-box;
+}
+
+.container-servicos p{
+    font-family: 'graviola-light';
+    font-size: 0.8em;
+    color: #4B4B4B; 
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .bg-image img{
+        width: 1200px;
+    }
+}
