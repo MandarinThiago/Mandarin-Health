@@ -186,7 +186,7 @@ header{
 
 .container-servicos{
     width: 100%;
-    height: 95vh;
+    height: 115vh;
     background: transparent linear-gradient(180deg, #F5F5F5 0%, #F8F8F8 100%) 0% 0% no-repeat padding-box;
     display: flex;
     flex-direction: column;
@@ -233,6 +233,65 @@ header{
     margin: 0px;
 }
 
+/*------------- health tech -------------*/
+
+.container-health-tech{
+    background-image: url(../assets/images/background_health_tech.png);
+    background: rgb(34,193,195);
+    background: linear-gradient(41deg, rgba(34,193,195,0.5) 70%, rgba(45,253,191,1) 100%);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.health-tech-arrow{
+    position: absolute;
+    width: 16vw;
+    margin-top: -110px;
+}
+
+.container-svg-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 220px;
+}
+
+.container-svg-text img{
+    position: absolute;
+    margin-left: 4vw;
+}
+
+.container-svg-text p{
+    width: 33vw;
+    font-size: 1.8em;
+    font-family: 'graviola-light';
+    color: #FFFFFF;
+    margin-left: 43vw;
+    margin-bottom: 70px;
+}
+.container-svg-text strong{
+    font-family: 'graviola-bold';
+    font-size: 1em;
+    color: #ffffff;
+}
+
+.line{
+    width: 56vw;
+    margin-top: 20px;
+    border-top: 1px solid #fff;
+}
+
+.container-plataformas{
+    width: 55%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 4vw;
+}
 
 @media only screen and (max-width: 1200px) {
     .bg-image img{
