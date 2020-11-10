@@ -27,6 +27,10 @@ body, html{
     background-color: #ffffff;
 }
 
+a{
+    text-decoration: none;
+}
+
 header{
     position: absolute;
     margin-top: -105vh;
@@ -291,6 +295,57 @@ header{
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 4vw;
+}
+
+/*------------- Cases -------------*/
+
+.container-cases{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-cases img{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.title-cases{
+    font-size: 4em;
+    font-family: 'graviola-light';
+    color: #3BD8E0;
+    margin-bottom: 50px;
+}
+
+.container-cases strong{
+    font-family: 'graviola-bold';
+}
+
+.btn-cases{
+    width: 15vw;
+    height: 3.5vw;
+    border-radius: 0.5vw;
+    background: rgb(34,193,195);
+    background: linear-gradient(41deg, rgba(34,193,195,0.5) 70%, rgba(45,253,191,1) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2vw;
+    margin-bottom: 70px; 
+}
+
+.btn-cases img{
+    width: 1.4vw;
+    margin: 0px;
+}
+
+.button-cases-txt{
+    font-family: 'graviola-bold';
+    font-size: 1.2em;
+    color: #ffffff;
+    margin-bottom: 0px;
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 1200px) {
