@@ -105,11 +105,12 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: -96vh;
+    bottom: 10vw;
 }
 
 .video-player{
-    width: 43%;
+    width: 100%;
+    height: 25vw;
 }
 
 
@@ -190,7 +191,7 @@ header{
 
 .container-servicos{
     width: 100%;
-    height: 115vh;
+    height: 58vw;
     background: transparent linear-gradient(180deg, #F5F5F5 0%, #F8F8F8 100%) 0% 0% no-repeat padding-box;
     display: flex;
     flex-direction: column;
@@ -253,7 +254,7 @@ header{
 .health-tech-arrow{
     position: absolute;
     width: 16vw;
-    margin-top: -110px;
+    margin-top: -150px;
 }
 
 .container-svg-text{
@@ -303,6 +304,8 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: rgb(248,248,248);
+    background: linear-gradient(0deg, rgba(248,248,248,1) 42%, rgba(255,255,255,1) 100%);
 }
 
 .container-cases img{
@@ -346,6 +349,99 @@ header{
     color: #ffffff;
     margin-bottom: 0px;
     text-decoration: none;
+}
+
+/*------------- Footer -------------*/
+
+footer{
+    height: 22vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-text-map{
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4vw;
+    margin-bottom: 1.5vw;
+}
+
+.footer-title{
+    font-family: 'graviola-bold';
+    font-size: 1em;
+    color: #25D1A2;
+    margin-top: 0.7vw;
+    margin-bottom: 0.7vw;
+}
+
+.footer-options{
+    font-family: 'graviola-regular';
+    font-size: 0.9em;
+    color: #7E7E7E;
+    margin-bottom: 0.4vw;
+}
+
+.footer-options:hover{
+    color: #676767;
+}
+
+.card-map{
+    height: 12vw;
+    border-radius: 0.3vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-map:hover{
+    opacity: 0.8;
+}
+
+.card-map img{
+    width: 26vw;
+}
+
+.content-map{
+    padding: 0.3vw 1vw 0.3vw 1vw;
+    background: rgb(34,193,195);
+    background: linear-gradient(41deg, rgba(34,193,195,0.5) 70%, rgba(45,253,191,1) 100%);
+    border-radius: 0.3vw;  
+}
+
+.content-map p{
+    font-family: 'graviola-bold';
+    font-size: 1em;
+    color: #FFF;
+}
+
+.container-icons-copyright{
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid #E5E5E5;
+    padding-top: 1.8vw;
+    align-items: center;
+}
+
+.container-icons{
+    width: 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-icons a:hover{
+    filter: brightness(50%);
+}
+
+.container-icons-copyright p{
+    font-family: 'graviola-bold';
+    font-size: 0.9em;
+    color: #25D1A2;
+    margin-left: 28%;
 }
 
 @media only screen and (max-width: 1200px) {
