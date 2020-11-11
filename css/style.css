@@ -32,9 +32,18 @@ a{
 }
 
 header{
-    position: absolute;
-    margin-top: -105vh;
     width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../assets/images/background_1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.content{
+    overflow: hidden;
 }
 
 .bg-image{
@@ -62,6 +71,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
 }
 
 .menu-mandarin-icon{
@@ -72,21 +82,38 @@ header{
 
 .menu-mandarin-icon img{
     width: 100%;
-    min-width: 100px;
+    min-width: 150px;
 }
 
 .menu-options{
     display: flex;
     flex-direction: row;
-    width: 32vw;
+    width: 650px;
     justify-content: space-between;
     margin-right: 12vw;
 }
 
-.menu-options p{
+.bg-menu-mobile{
+    width: 100%;
+    height: 20vw;
+    background-color: teal;
+}
+
+.menu-options-mobile{
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-options p, .menu-options-mobile p{
     font-family: 'graviola-regular';
     font-size: 1em;
     color: #ffffff;
+}
+
+.menu-options-mobile p{
+    margin-bottom: 10px;
 }
 
 .menu-options a{
@@ -97,15 +124,19 @@ header{
     color: red;
 }
 
+.icon-responsive-menu{
+    display: none;
+    margin-right: 10vw;
+}
+
 /*------------- video area -------------*/
 
 .container-video-conteudo{
-    position: absolute;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    bottom: 10vw;
+    bottom: 10%;
 }
 
 .video-player{
@@ -149,26 +180,39 @@ header{
 .container-health-cicle{
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
-    margin-bottom: 150px;
+    margin-bottom: 10vw;
+}
+
+.title-health-cycle{
+    width: 25vw;
+    min-width: 300px;
 }
 
 .container-health-cicle p{
     font-family: 'graviola-light';
-    font-size: 0.8em;
+    font-size: 1.2em;
     color: #4B4B4B;
     margin-top: 2%;
-    margin-bottom: 5%;
     width: 34%;
 }
 
 .container-circles{
     width: 68vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .cycles-img{
-    width: 69vw;
+    width: 60vw;
+    margin-top: 5%;
+}
+
+.cycles-img-vert{
+    height: 60vw;
+    display: none;
 }
 
 .container-icons-circles{
@@ -176,7 +220,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: -220px;
+    margin-top: -17vw;
 }
 
 .icons-circles{
@@ -187,7 +231,7 @@ header{
     width: 5.8vw;
 }
 
-/*------------- health cycle -------------*/
+/*------------- Serviços -------------*/
 
 .container-servicos{
     width: 100%;
@@ -447,5 +491,45 @@ footer{
 @media only screen and (max-width: 1200px) {
     .bg-image img{
         width: 1200px;
+    }
+
+    .icon-responsive-menu{
+        display: block;
+    }
+
+    .menu-options{
+        display: none;
+    }
+
+    .menu-options-mobile{
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .cycles-img{
+        width: 60vw;
+        margin-top: 5%;
+        display: none;
+    }
+    
+    .cycles-img-vert{
+        height: 60vw;
+        display: block;
+    }
+
+    .text-video{
+        flex-direction: column;
+
+    align-items: center;
+    }
+
+    .paragraph-left{
+        width: 150%;
+        margin-bottom: 20px;
+    }
+    
+    .paragraph-right{
+        width: 150%;
     }
 }
