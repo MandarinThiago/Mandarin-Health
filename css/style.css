@@ -45,7 +45,7 @@ header{
 .bg-image{
     position: relative;
     background: rgb(37, 209, 160);
-    background: linear-gradient(76deg, rgba(37, 209, 160, 1) 12%, rgba(95, 39, 205, 1)83%);
+    background: transparent linear-gradient(81deg, #48DBFB 0%, #1DD1A1 100%) 0% 0% no-repeat padding-box;
     background-size: cover;
     clip-path: polygon(0% 0%, 100% 0, 100% 82%, 60% 93.5%, 0 82%);
 }
@@ -299,7 +299,7 @@ header{
 .container-health-tech{
     background-image: url(../assets/images/background_health_tech.png);
     background: rgb(34,193,195);
-    background: linear-gradient(41deg, rgba(34,193,195,0.5) 70%, rgba(45,253,191,1) 100%);
+    background: transparent linear-gradient(81deg, #48DBFB 0%, #1DD1A1 100%) 0% 0% no-repeat padding-box;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -364,7 +364,7 @@ header{
 
 .container-health-tech{
     background: rgb(34,193,195);
-    background: linear-gradient(41deg, rgba(34,193,195,0.5) 70%, rgba(45,253,191,1) 100%);
+    background: transparent linear-gradient(81deg, #48DBFB 0%, #1DD1A1 100%) 0% 0% no-repeat padding-box;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -455,7 +455,7 @@ header{
     min-height: 50px;
     border-radius: 0.7vw;
     background: rgb(34,193,195);
-    background: linear-gradient(41deg, rgba(34,193,195,0.5) 70%, rgba(45,253,191,1) 100%);
+    background: transparent linear-gradient(81deg, #48DBFB 0%, #1DD1A1 100%) 0% 0% no-repeat padding-box;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -548,7 +548,7 @@ footer{
 .content-map{
     padding: 0.3vw 1vw 0.3vw 1vw;
     background: rgb(34,193,195);
-    background: linear-gradient(41deg, rgba(34,193,195,0.5) 70%, rgba(45,253,191,1) 100%);
+    background: transparent linear-gradient(81deg, #48DBFB 0%, #1DD1A1 100%) 0% 0% no-repeat padding-box;
     border-radius: 0.3vw;
 }
 
