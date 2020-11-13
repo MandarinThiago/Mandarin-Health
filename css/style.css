@@ -36,10 +36,6 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(../assets/images/background_1.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
 }
 
 .content{
@@ -48,8 +44,6 @@ header{
 
 .bg-image{
     position: relative;
-    width: 100%;
-    height: 948px;
     background: rgb(37, 209, 160);
     background: linear-gradient(76deg, rgba(37, 209, 160, 1) 12%, rgba(95, 39, 205, 1)83%);
     background-size: cover;
@@ -57,46 +51,39 @@ header{
     opacity: 0.8;
 }
 
-.bg-image img{
+.imagem-fundo{
+    z-index: -1;
+    position: absolute;
     width: 100%;
     background-position: center center;
-    opacity: 0.5;
 }   
 
 /*------------- menu -------------*/
 
 .container-menu-mandarin{
+    position: relative;
     width: 100%;
+    padding: 1vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    margin-bottom: 2vw;
 }
 
-.menu-mandarin-icon{
-    width: 9vw;
-    height: 7vh;
-    margin-left: 12vw;
-}
-
-.menu-mandarin-icon img{
-    width: 100%;
-    min-width: 150px;
+.menu-mandarin-icon {
+    position: relative;
+    width: 10%;
+    height: 50%;
+    margin-left: 20%;
 }
 
 .menu-options{
     display: flex;
     flex-direction: row;
-    width: 650px;
+    width: 40%;
     justify-content: space-between;
-    margin-right: 12vw;
-}
-
-.bg-menu-mobile{
-    width: 100%;
-    height: 20vw;
-    background-color: teal;
+    margin-right: 20%;
 }
 
 .menu-options-mobile{
@@ -104,6 +91,14 @@ header{
     display: none;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+}
+
+.bg-menu-mobile{
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 170px;
 }
 
 .menu-options p, .menu-options-mobile p{
@@ -113,7 +108,7 @@ header{
 }
 
 .menu-options-mobile p{
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .menu-options a{
@@ -134,9 +129,10 @@ header{
 .container-video-conteudo{
     width: 100%;
     display: flex;
+    min-width: 400px;
     flex-direction: column;
     align-items: center;
-    bottom: 10%;
+    margin-bottom: 130px;
 }
 
 .video-player{
@@ -178,10 +174,11 @@ header{
 /*------------- health cycle -------------*/
 
 .container-health-cicle{
-    width: 100%;
     display: flex;
     flex-direction: column; 
     align-items: center;
+    padding-right: 40px;
+    padding-left: 40px;
     margin-bottom: 10vw;
 }
 
@@ -194,8 +191,8 @@ header{
     font-family: 'graviola-light';
     font-size: 1.2em;
     color: #4B4B4B;
-    margin-top: 2%;
-    width: 34%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .container-circles{
@@ -213,6 +210,7 @@ header{
 .cycles-img-vert{
     height: 60vw;
     display: none;
+    min-height: 600px;
 }
 
 .container-icons-circles{
@@ -235,7 +233,6 @@ header{
 
 .container-servicos{
     width: 100%;
-    height: 58vw;
     background: transparent linear-gradient(180deg, #F5F5F5 0%, #F8F8F8 100%) 0% 0% no-repeat padding-box;
     display: flex;
     flex-direction: column;
@@ -251,22 +248,25 @@ header{
 
 .container-cards{
     width: 70%;
-    height: 40vw;
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 8vw;
 }
 
 .card-servicos{
     background-color: #ffffff;
-    width: 24%;
-    height: 16.5vw;
+    width: 280px;
+    height: 280px;
     border-radius: 1vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1vw;
+    justify-content: space-around;
+    padding: 30px;
+    margin-bottom: 20px;
 }
 
 .card-servicos img{
@@ -342,6 +342,67 @@ header{
     margin-bottom: 4vw;
 }
 
+/*------------- health tech -------------*/
+
+.container-health-tech{
+    background-image: url(../assets/images/background_health_tech.png);
+    background: rgb(34,193,195);
+    background: linear-gradient(41deg, rgba(34,193,195,0.5) 70%, rgba(45,253,191,1) 100%);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.health-tech-arrow{
+    width: 16vw;
+    margin-top: -8%;
+}
+
+.container-svg-text{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.container-svg-text img{
+    position: absolute;
+    width: 700px;
+    margin-left: 5%;
+}
+
+.container-svg-text p{
+    width: 28vw;
+    height: 200px;
+    font-size: 1.8em;
+    font-family: 'graviola-light';
+    color: #FFFFFF;
+    margin-left: 520px;
+    margin-top: 100px;
+}
+.container-svg-text strong{
+    font-family: 'graviola-bold';
+    font-size: 1em;
+    color: #ffffff;
+}
+
+.line{
+    width: 56vw;
+    margin-top: 130px;
+    border-top: 1px solid #fff;
+}
+
+.container-plataformas{
+    width: 55%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
 /*------------- Cases -------------*/
 
 .container-cases{
@@ -358,10 +419,11 @@ header{
 }
 
 .title-cases{
-    font-size: 4em;
+    font-size: calc(30px + 1.5vw);
     font-family: 'graviola-light';
     color: #3BD8E0;
     margin-bottom: 50px;
+    margin: 0 20px 0 20px;
 }
 
 .container-cases strong{
@@ -371,7 +433,9 @@ header{
 .btn-cases{
     width: 15vw;
     height: 3.5vw;
-    border-radius: 0.5vw;
+    min-width: 200px;
+    min-height: 50px;
+    border-radius: 0.7vw;
     background: rgb(34,193,195);
     background: linear-gradient(41deg, rgba(34,193,195,0.5) 70%, rgba(45,253,191,1) 100%);
     display: flex;
@@ -379,12 +443,14 @@ header{
     justify-content: space-around;
     align-items: center;
     padding: 2vw;
-    margin-bottom: 70px; 
+    margin-top: 30px; 
+    margin-bottom: 40px; 
 }
 
 .btn-cases img{
     width: 1.4vw;
     margin: 0px;
+    min-width: 20px;
 }
 
 .button-cases-txt{
@@ -398,7 +464,6 @@ header{
 /*------------- Footer -------------*/
 
 footer{
-    height: 22vw;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -411,7 +476,7 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     margin-top: 4vw;
-    margin-bottom: 1.5vw;
+    margin-bottom: 60px;
 }
 
 .footer-title{
@@ -434,10 +499,13 @@ footer{
 }
 
 .card-map{
-    height: 12vw;
+    height: 100px;
     border-radius: 0.3vw;
     display: flex;
     flex-direction: column;
+    margin-left: 100px;
+    min-width: 300px;
+    margin-bottom: 100px;
 }
 
 .card-map:hover{
@@ -446,13 +514,14 @@ footer{
 
 .card-map img{
     width: 26vw;
+    min-width: 300px;
 }
 
 .content-map{
     padding: 0.3vw 1vw 0.3vw 1vw;
     background: rgb(34,193,195);
     background: linear-gradient(41deg, rgba(34,193,195,0.5) 70%, rgba(45,253,191,1) 100%);
-    border-radius: 0.3vw;  
+    border-radius: 0.3vw;
 }
 
 .content-map p{
@@ -466,12 +535,13 @@ footer{
     display: flex;
     flex-direction: row;
     border-top: 1px solid #E5E5E5;
-    padding-top: 1.8vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
     align-items: center;
 }
 
 .container-icons{
-    width: 12%;
+    width: 140px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -485,12 +555,25 @@ footer{
     font-family: 'graviola-bold';
     font-size: 0.9em;
     color: #25D1A2;
-    margin-left: 28%;
+    margin-left: 25%;
 }
 
 @media only screen and (max-width: 1200px) {
-    .bg-image img{
+    .imagem-fundo{
         width: 1200px;
+    }
+
+    .container-menu-mandarin{
+        margin-top: 5%;
+        margin-bottom: 0.5%;
+    }
+
+    .menu-mandarin-icon {
+        position: relative;
+        width: 20%;
+        height: 50%;
+        margin-left: 10%;
+        min-width: 120px;
     }
 
     .icon-responsive-menu{
@@ -501,9 +584,60 @@ footer{
         display: none;
     }
 
-    .menu-options-mobile{
-        display: flex;
+    .container-video-conteudo{
+        margin-top: 6vw;
+        margin-bottom: 220px;
     }
+
+    .line{
+        margin-top: 40px;
+    }
+
+    .text-video{
+        height: 250px;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    .container-text-map{
+        height: 400px;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    .card-map{
+        margin: 0;
+    }
+
+    .container-plataformas{
+        flex-direction: column;
+        align-items: center;
+        height: 300px;
+    }
+
+    .container-svg-text{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .container-svg-text p{
+        width: 400px;
+        margin-left: 0;
+        margin-top: 320px;
+        margin-bottom: 0;
+    }
+
+    .container-svg-text img{
+        position: absolute;
+        width: 700px;
+        align-self: center;
+    }
+    
 }
 
 @media only screen and (max-width: 750px) {
@@ -518,12 +652,6 @@ footer{
         display: block;
     }
 
-    .text-video{
-        flex-direction: column;
-
-    align-items: center;
-    }
-
     .paragraph-left{
         width: 150%;
         margin-bottom: 20px;
@@ -532,4 +660,45 @@ footer{
     .paragraph-right{
         width: 150%;
     }
+
+    .text-video{
+        height: 300px;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        justify-content: space-between;
+    }
+
+    .container-video-conteudo{
+        margin-bottom: 250px;
+    }
+    .video-player{
+        height: 50vw;
+    }
+
+    .container-icons-copyright{
+        flex-direction: column;
+    }
+
+    .container-icons-copyright p{
+        margin-left: 0;
+        margin-top: 15px;
+        min-width: 180px;
+    }
+
+    .container-svg-text img{
+        width: 80%;
+        min-width: 300px;
+    }
+
+    .container-svg-text p{
+        width: 300px;
+        margin-left: 0;
+        margin-top: 150px;
+    }
+
+    .line{
+        margin-top: 70px;
+    }
+    
 }
