@@ -6,11 +6,11 @@ function switchMenu(){
 
     if(click){
         menuDisplay = 'none'
-        imagem = '/assets/images/hamburguer.png'
+        imagem = './assets/images/hamburguer.png'
     }
     else{
         menuDisplay='flex'
-        imagem = '/assets/images/close.png'
+        imagem = './assets/images/close.png'
     }
 
     document.querySelector(".menu-options-mobile").style.display = menuDisplay;

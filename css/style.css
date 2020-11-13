@@ -48,7 +48,6 @@ header{
     background: linear-gradient(76deg, rgba(37, 209, 160, 1) 12%, rgba(95, 39, 205, 1)83%);
     background-size: cover;
     clip-path: polygon(0% 0%, 100% 0, 100% 82%, 60% 93.5%, 0 82%);
-    opacity: 0.8;
 }
 
 .imagem-fundo{
@@ -56,6 +55,7 @@ header{
     position: absolute;
     width: 100%;
     background-position: center center;
+    opacity: 0.8;
 }   
 
 /*------------- menu -------------*/
@@ -92,6 +92,7 @@ header{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
 }
 
 .bg-menu-mobile{
@@ -198,6 +199,7 @@ header{
 }
 
 .container-health-cicle p{
+    width: 48%;
     font-family: 'graviola-light';
     font-size: 1.2em;
     color: #4B4B4B;
@@ -353,8 +355,14 @@ header{
 
 /*------------- health tech -------------*/
 
+.bg-health-tech{
+    position: absolute;
+    width: 100%;
+    min-height: 510px;
+    background-position: center center;
+}
+
 .container-health-tech{
-    background-image: url(../assets/images/background_health_tech.png);
     background: rgb(34,193,195);
     background: linear-gradient(41deg, rgba(34,193,195,0.5) 70%, rgba(45,253,191,1) 100%);
     background-size: cover;
@@ -433,6 +441,7 @@ header{
     color: #3BD8E0;
     margin-bottom: 50px;
     margin: 0 20px 0 20px;
+    text-align: center;
 }
 
 .container-cases strong{
@@ -578,6 +587,7 @@ footer{
 }
 
 @media only screen and (max-width: 1200px) {
+    
     .imagem-fundo{
         width: 1200px;
     }
@@ -606,10 +616,6 @@ footer{
     .container-line-video{
         margin-top: 30px;
         margin-bottom: 220px;
-    }
-
-    .container-line-video img{
-        margin-top: 70px;
     }
 
     .container-video-conteudo{
@@ -673,6 +679,22 @@ footer{
         width: 700px;
         align-self: center;
     }
+
+    .footer-title{
+        text-align: center;
+    }
+
+    .footer-options{
+        text-align: center;
+    }
+
+    .container-health-cicle p{
+        width: 80%;
+    }
+
+    .bg-health-tech{
+        height: 150%;
+    }
     
 }
 
@@ -691,10 +713,12 @@ footer{
     .paragraph-left{
         width: 150%;
         margin-bottom: 20px;
+        text-align: center;
     }
     
     .paragraph-right{
         width: 150%;
+        text-align: center;
     }
 
     .text-video{
@@ -731,10 +755,15 @@ footer{
         width: 300px;
         margin-left: 0;
         margin-top: 150px;
+        text-align: center;
     }
 
     .line{
         margin-top: 70px;
+    }
+
+    .container-health-cicle p{
+        text-align: center;
     }
     
 }
