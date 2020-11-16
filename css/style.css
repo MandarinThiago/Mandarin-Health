@@ -86,6 +86,24 @@ header{
     margin-right: 20%;
 }
 
+.container-text-option a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-circle{
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    margin-top: 15px;
+}
+
+.container-text-option a:hover .menu-circle{
+    background: rgb(34,193,195);
+    background: transparent linear-gradient(81deg, #48DBFB 0%, #1DD1A1 100%) 0% 0% no-repeat padding-box;
+}
+
 .menu-options-mobile{
     width: 100%;
     display: none;
@@ -103,7 +121,7 @@ header{
 }
 
 .menu-options p, .menu-options-mobile p{
-    font-family: 'graviola-regular';
+    font-family: 'graviola-book';
     font-size: 1em;
     color: #ffffff;
 }
@@ -157,15 +175,14 @@ header{
 }
 
 .text-video{
-    width: 80%;
+    width: 84%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     font-family: 'graviola-light';
     font-size: 1.5em;
     color: #ffffff;
-    margin-top: 2%;
-    padding: 5px;
+    margin-top: 3%;
 }
 
 .paragraph-left{
@@ -205,6 +222,10 @@ header{
     color: #4B4B4B;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.container-health-cicle strong{
+    font-family: 'graviola-bold';
 }
 
 .container-circles{
@@ -253,13 +274,13 @@ header{
 
 .container-servicos p{
     font-family: 'graviola-bold';
-    font-size: 3.4em;
+    font-size: 4em;
     color:#360C96; 
     margin-top: 80px;
 }
 
 .container-cards{
-    width: 70%;
+    width: 62%;
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -278,7 +299,7 @@ header{
     align-items: center;
     justify-content: space-around;
     padding: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
 .card-servicos img{
@@ -309,7 +330,7 @@ header{
 
 .health-tech-arrow{
     position: absolute;
-    width: 16vw;
+    width: 200px;
     margin-top: -150px;
 }
 
@@ -353,8 +374,6 @@ header{
     margin-bottom: 4vw;
 }
 
-/*------------- health tech -------------*/
-
 .bg-health-tech{
     position: absolute;
     width: 100%;
@@ -373,8 +392,8 @@ header{
 
 
 .health-tech-arrow{
-    width: 16vw;
-    margin-top: -8%;
+    width: 200px;
+    margin-top: -100px;
 }
 
 .container-svg-text{
@@ -449,26 +468,19 @@ header{
 }
 
 .btn-cases{
-    width: 15vw;
-    height: 3.5vw;
+    width: 11vw;
     min-width: 200px;
     min-height: 50px;
-    border-radius: 0.7vw;
+    border-radius: 0.4vw;
     background: rgb(34,193,195);
     background: transparent linear-gradient(81deg, #48DBFB 0%, #1DD1A1 100%) 0% 0% no-repeat padding-box;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 2vw;
+    padding: 14px;
     margin-top: 30px; 
     margin-bottom: 40px; 
-}
-
-.btn-cases img{
-    width: 1.4vw;
-    margin: 0px;
-    min-width: 20px;
 }
 
 .button-cases-txt{
@@ -489,7 +501,7 @@ footer{
 }
 
 .container-text-map{
-    width: 55%;
+    width: 37%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -501,15 +513,15 @@ footer{
     font-family: 'graviola-bold';
     font-size: 1em;
     color: #25D1A2;
-    margin-top: 0.7vw;
-    margin-bottom: 0.7vw;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 .footer-options{
     font-family: 'graviola-regular';
     font-size: 0.9em;
     color: #7E7E7E;
-    margin-bottom: 0.4vw;
+    margin-bottom: 12px;
 }
 
 .footer-options:hover{
@@ -518,20 +530,25 @@ footer{
 
 .fotter-tel{
     display: flex;
-    flex-direction: row;
     align-items: center;
+    margin-bottom: 12px;
 }
 
 .fotter-tel img{
     margin-right: 5px;
 }
 
+
+.fotter-tel p{
+    margin-bottom: 0;
+}
+
+
 .card-map{
     height: 100px;
     border-radius: 0.3vw;
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
     min-width: 300px;
     margin-bottom: 100px;
 }
@@ -562,6 +579,7 @@ footer{
     width: 55%;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     border-top: 1px solid #E5E5E5;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -583,7 +601,6 @@ footer{
     font-family: 'graviola-bold';
     font-size: 0.9em;
     color: #25D1A2;
-    margin-left: 25%;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -644,7 +661,7 @@ footer{
     }
 
     .container-text-map{
-        height: 400px;
+        height: 240px;
         flex-direction: column;
         align-items: center;
         margin-bottom: 100px;
@@ -699,6 +716,19 @@ footer{
 }
 
 @media only screen and (max-width: 750px) {
+    .bg-image{
+        position: relative;
+        background: rgb(37, 209, 160);
+        background: linear-gradient(76deg, rgba(37,209,160,1) 12%, rgba(95,39,205,1) 88%);  
+        background-size: cover;
+        clip-path: polygon(0% 0%, 100% 0, 100% 82%, 60% 88%, 0 82%);
+    }
+    .menu-mandarin-icon {
+        width: 20%;
+        height: 50%;
+        min-width: 180px;
+    }
+
     .cycles-img{
         width: 60vw;
         margin-top: 5%;
@@ -732,9 +762,14 @@ footer{
     .container-line-video img{
         display: none;
     }
-    
+
     .video-player{
         height: 50vw;
+    }
+
+    .health-tech-arrow{
+        width: 170px;
+        margin-top: -85px;
     }
 
     .container-icons-copyright{
@@ -754,9 +789,13 @@ footer{
 
     .container-svg-text p{
         width: 300px;
-        margin-left: 0;
-        margin-top: 150px;
+        margin-top: 170px;
         text-align: center;
+    }
+
+    .container-svg-text img{
+        width: 100%;
+        margin-left: 50px;
     }
 
     .line{
