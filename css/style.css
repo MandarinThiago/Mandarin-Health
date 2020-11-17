@@ -55,7 +55,7 @@ header{
     position: absolute;
     width: 100%;
     background-position: center center;
-    opacity: 0.8;
+    opacity: 0.31;
 }   
 
 /*------------- menu -------------*/
@@ -329,21 +329,21 @@ header{
 
 
 .health-tech-arrow{
-    position: absolute;
     width: 200px;
-    margin-top: -150px;
-}
+    margin-top: -100px;
+}   
+
 
 .container-svg-text{
+    position: relative;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    margin-top: 220px;
 }
 
 .container-svg-text img{
     position: absolute;
-    margin-left: 4vw;
+    width: 700px;
+    margin-left: 5%;
 }
 
 .container-svg-text p{
@@ -353,6 +353,7 @@ header{
     color: #FFFFFF;
     margin-left: 43vw;
 }
+
 .container-svg-text strong{
     font-family: 'graviola-bold';
     font-size: 1em;
@@ -361,7 +362,7 @@ header{
 
 .line{
     width: 56vw;
-    margin-top: 20px;
+    margin-top: 10px;
     border-top: 1px solid #fff;
 }
 
@@ -381,33 +382,6 @@ header{
     background-position: center center;
 }
 
-.container-health-tech{
-    background: rgb(34,193,195);
-    background: transparent linear-gradient(81deg, #48DBFB 0%, #1DD1A1 100%) 0% 0% no-repeat padding-box;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.health-tech-arrow{
-    width: 200px;
-    margin-top: -100px;
-}
-
-.container-svg-text{
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    margin-top: 30px;
-}
-
-.container-svg-text img{
-    position: absolute;
-    width: 700px;
-    margin-left: 5%;
-}
 
 .container-svg-text p{
     width: 28vw;
@@ -422,12 +396,6 @@ header{
     font-family: 'graviola-bold';
     font-size: 1em;
     color: #ffffff;
-}
-
-.line{
-    width: 56vw;
-    margin-top: 10px;
-    border-top: 1px solid #fff;
 }
 
 .container-plataformas{
@@ -668,7 +636,7 @@ footer{
     }
 
     .card-map{
-        margin: 0;
+        margin-bottom: 20px;
     }
 
     .container-plataformas{
@@ -711,6 +679,11 @@ footer{
 
     .bg-health-tech{
         height: 150%;
+    }
+
+    .card-map img{
+        width: 100%;
+        min-width: 300px;
     }
     
 }
