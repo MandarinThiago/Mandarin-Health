@@ -439,7 +439,7 @@ header{
     width: 11vw;
     min-width: 200px;
     min-height: 50px;
-    border-radius: 0.4vw;
+    border-radius: 10px;
     background: rgb(34,193,195);
     background: transparent linear-gradient(81deg, #48DBFB 0%, #1DD1A1 100%) 0% 0% no-repeat padding-box;
     display: flex;
@@ -600,13 +600,8 @@ footer{
 
     .container-line-video{
         margin-top: 30px;
-        margin-bottom: 220px;
+        margin-bottom: 1px;
     }
-
-    .container-video-conteudo{
-        margin-bottom: 40px;
-    }
-
     .paragraph-left{
         width: 80%;
         margin-bottom: 20px;
@@ -689,12 +684,16 @@ footer{
 }
 
 @media only screen and (max-width: 750px) {
+    header{
+        height: 760px;
+    }
+
     .bg-image{
         position: relative;
         background: rgb(37, 209, 160);
         background: linear-gradient(76deg, rgba(37,209,160,1) 12%, rgba(95,39,205,1) 88%);  
         background-size: cover;
-        clip-path: polygon(0% 0%, 100% 0, 100% 82%, 60% 88%, 0 82%);
+        clip-path: polygon(0% 0%, 100% 0, 100% 90%, 60% 96%, 0 90%);
     }
     .menu-mandarin-icon {
         width: 20%;
